@@ -26,3 +26,24 @@ I will be working off  a CSV containing more than 34,000 organizations that have
 * 3: Optimize the Model
 * 4: Analyze my findings
 
+## Method 
+
+At the first attempt the model was around 70 % accurate. 
+Using the data from the CSV file, for the first Model I dropped the EIN and NAME columns.
+Then I determined the number of unique values for each column.
+For those columns that have more than 10 unique values, I determined the number of data points for each unique value.
+Next I Created a density plot to determine the distribution of the column values.
+Using the density plot to create a cutoff point to bin "rare" categorical variables together in a new column, Other, and then I checked if the binning was successful.
+Then I Generated a list of categorical variables.
+After that I Encoded categorical variables using one-hot encoding, and placed the variables in a new DataFrame.
+Finally I merged the one-hot encoding DataFrame with the original DataFrame, and drop the originals.
+
+This is what My data frame looked like:
+
+Before Testing I split the preprocessed data into features and target arrays.
+Then I split the preprocessed data into training and testing datasets. Using Scikit-Learn’s StandardScaler class, then scale the data.And finally I ran the model and tested for accuracy.
+
+## Results
+
+* First Model Accuracy 
+
