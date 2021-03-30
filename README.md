@@ -47,4 +47,5 @@ Then I split the preprocessed data into training and testing datasets. Using Sci
 ## Results
 
 * First Model Accuracy 
+![first](https://github.com/Solrys/Neural_Network_Charity_Analysis/blob/main/visuals/Screen%20Shot%202021-03-30%20at%206.53.33%20PM.png)
 
