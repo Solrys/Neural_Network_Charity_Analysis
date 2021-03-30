@@ -46,6 +46,20 @@ Then I split the preprocessed data into training and testing datasets. Using Sci
 
 ## Results
 
-* First Model Accuracy 
+## * First Model Accuracy 
+My First Model was under the desired 75 percent accuracy. 
 ![first](https://github.com/Solrys/Neural_Network_Charity_Analysis/blob/main/visuals/Screen%20Shot%202021-03-30%20at%206.53.33%20PM.png)
+
+## * Optomizing The Models
+In order to try to optimize the accuracy I tried to do the following. 
+
+Even after adding Hidden layers, playing with the number of Epochs, setting density, grouping "others", trying various activation functions, and then retrying the activation functions in different orders, the accuracy on the best models were just shy of 75%. 
+
+
+## * Final Model 
+I finally went back to my orginal code and kept the "name" column and only dropped the EIN column. I also made some slight changes to aggregate the best of what was working on each model. The activation functions that worked best with this data were predominatntly relu followed by a sigmoid outer layer. 
+The model didnt seem to benifit from more than 3 hidden layers or more than 100 Epochs. After adding these changes the model came in at over 90% accuracy. 
+
+
+
 
