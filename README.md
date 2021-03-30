@@ -39,6 +39,7 @@ After that I Encoded categorical variables using one-hot encoding, and placed th
 Finally I merged the one-hot encoding DataFrame with the original DataFrame, and drop the originals.
 
 This is what My data frame looked like:
+![dataf](https://github.com/Solrys/Neural_Network_Charity_Analysis/blob/main/visuals/Screen%20Shot%202021-03-30%20at%206.52.08%20PM.png)
 
 Before Testing I split the preprocessed data into features and target arrays.
 Then I split the preprocessed data into training and testing datasets. Using Scikit-Learn’s StandardScaler class, then scale the data.And finally I ran the model and tested for accuracy.
