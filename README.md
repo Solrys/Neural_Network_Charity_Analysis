@@ -66,6 +66,8 @@ The model didnt seem to benifit from more than 3 hidden layers or more than 100 
 
 ## Conclusion
 
+Neural Networks are a great way to train and test data. The code is straightforward and can be reused and customized in a number of ways to fit the data in question. The drawbacks however may lie in the lack of interperatbility. Another disadvantage may be that 
+fitting a neural network model can be time consumming when trying to improve accuracy. Sinceince this is a binary classification problem, a Support Vector Machine (SVM) model could be used in place of this neural network model. It would be interesting to test both and compare accuracy. 
 
 
 
