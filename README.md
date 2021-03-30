@@ -57,8 +57,10 @@ Even after adding Hidden layers, playing with the number of Epochs, setting dens
 
 
 ## * Final Model 
-I finally went back to my orginal code and kept the "name" column and only dropped the EIN column. I also made some slight changes to aggregate the best of what was working on each model. The activation functions that worked best with this data were predominatntly relu followed by a sigmoid outer layer. 
-The model didnt seem to benifit from more than 3 hidden layers or more than 100 Epochs. After adding these changes the model came in at over 90% accuracy. 
+I finally went back to my orginal code and kept the "name" column and only dropped the EIN column.I simplified the code.  I also made some slight changes to aggregate the best of what was working on each model. The activation functions that worked best with this data were predominatntly relu followed by a sigmoid outer layer. 
+The model didnt seem to benifit from more than 3 hidden layers or more than 100 Epochs. While I must have gone through over two dozen versions of code to figure out a formula that worked, adding these changes the model came in at over 90% accuracy.
+
+## Conclusion
 
 
 
